@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    font-family: open sans-serif;
+    background: linear-gradient(to right, #ffffff, #0a88cb);
+}
+h1{
+    text-align: center;
+    border-bottom: 3px double;
+    border-color: black;
+    margin-left: 20pc;
+    
+}
+
+a{
+   color: white;
+   text-decoration: none; 
+}
+.toggle-btn{
+    position: absolute;
+    left: 80px;
+    top: 15px;
+}
+.toggle-btn span{
+    display: block;
+    background-color: white;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+.wrapper .sidenav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20vw;
+    height: 100vh;
+    background: #231f20;
+}
+ul li{
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    padding: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+    border-top: 1px rgba(255, 255, 255, 0.315);
+}
+ul li:hover{
+    background:  #383133
+}
+
+.wrapper .main-content{
+    display: flex; /* Set display to flex */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+
+}
+.vid{
+    border: solid 3px black;
+    border-radius: 10%;
+    width: 60%; /* Set width to 100% */
+    height: auto; /* Set height to auto */
+    margin-left: 22%;
+    margin-top: 2%;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+.vid:hover{
+    border: 1px solid #777;
+    box-shadow:0 5px 5px 0 #15f4ee inset,0 5px 25px 0 #15f4ee,
+               0 5px 50px 0 #15f4ee inset,0 5px 100px 0 #15f4ee;
+}

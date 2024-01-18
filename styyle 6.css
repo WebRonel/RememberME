@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    font-family: open sans-serif;
+    background: linear-gradient(to right, #ffffff, #0a88cb);
+}
+h1{
+    text-align: center;
+    margin-left: 20pc;
+    border-bottom: 3px double;
+    border-color: black;
+    
+}
+
+a{
+   color: white;
+   text-decoration: none; 
+}
+.toggle-btn{
+    position: absolute;
+    left: 80px;
+    top: 15px;
+}
+.toggle-btn span{
+    display: block;
+    background-color: white;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+.wrapper .sidenav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20vw;
+    height: 100vh;
+    background: #231f20;
+}
+ul li{
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    padding: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+    border-top: 1px rgba(255, 255, 255, 0.315);
+}
+ul li:hover{
+    background:  #383133
+}
+
+.wrapper .main-content{
+    width: 80vw;
+    margin-left: 20vw;
+}
+div.main-content h2{
+    text-align: left;
+}
+.song{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.autoplay{
+    border: solid 3px black;
+    border-radius: 30%;
+    width: 30vw; /* This will make the audio player 50% of the viewport width */
+    margin-left: 32%;
+    margin-top: 3%;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+.autoplay:hover{
+    border: 1px solid #777;
+    box-shadow:0 5px 5px 0 #15f4ee inset,0 5px 25px 0 #15f4ee,
+               0
+}
